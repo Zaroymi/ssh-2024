@@ -44,3 +44,7 @@ live-server
    2. React
 4. Темы по запросам телезрителей
 5. Верстка и Стили???  
+
+npx tailwindcss init
+npx tailwindcss -i ./src/styles/style.css -o ./styles/output.css --watch
+npx esbuild ./src/index.js --bundle --outdir=dist --minify

@@ -19,16 +19,11 @@ section > div {
 }
 
 .facts-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 
-.list-item {
+.facts-list-item {
     display: flex;
-    width: 200px;
-    height: 24px;
-    font-size: 14px;
+    gap: 4px;
     border: 1px solid black;
 }
