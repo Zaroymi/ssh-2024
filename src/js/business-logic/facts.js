@@ -1,4 +1,4 @@
-import { getRandomFact } from "./backend-api.js";
+import { getRandomFact } from '../API/facts.js';
 
 const factsList = [];
 

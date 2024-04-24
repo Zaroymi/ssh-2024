@@ -1,8 +1,8 @@
-import { addFactToList } from "./bl.js";
+import { addFactToList } from "../business-logic/facts.js";
 
 export async function addListItem() {
     const newFacts = await addFactToList();
-    const listElement = document.querySelector('.list');
+    const listElement = document.querySelector('.facts-list');
 
     for (const child of Array.from(listElement.children)) {
         listElement?.removeChild(child);
